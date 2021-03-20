@@ -1,0 +1,43 @@
+{
+	"name": "langeler/perunio-mvc",
+	"type": "project",
+	"description": "An MVC framework written without libraries or frameworks (PHP).",
+	"keywords": [
+		"php",
+		"application",
+		"mvc",
+		"scratch",
+		"php7",
+		"oop",
+		"model-view-controller",
+		"object-oriented-programming",
+		"mysql",
+		"pdo",
+		"web app"
+	],
+	"homepage": "https://perunio.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Joakim Langeler",
+			"homepage": "https://www.langeler.se",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/langeler/perunio-mvc/issues",
+		"source": "https://github.com/langeler/perunio-mvc"
+	},
+	"autoload": {
+		"classmap": [
+			"app/"
+		],
+		"files": [
+			"config/settings.php",
+			"app/routes.php"
+		]
+	},
+	"require": {
+		"php": ">=7.0"
+	}
+}
