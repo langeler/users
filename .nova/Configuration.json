@@ -1,0 +1,11 @@
+{
+  "index.ignored_file_patterns" : [
+    ".DS_Store",
+    "node_modules",
+    "vendor",
+    ".nova"
+  ],
+  "prettier.default-config.tabWidth" : 4,
+  "prettier.default-config.useTabs" : "Enable",
+  "workspace.color" : 11
+}
